@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>home-work-3</title>
+		<link rel="icon" href="images/favicon.png" type="image/png">
+		<link rel="stylesheet" href="../style/style.css">
+	</head>
+
+	<body>
+		<header>
+			<h1 class="logo">Home-work-3</h1>
+			<div class="menu">
+				<div class="container">
+					<ul>
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../pages/about.html">About</a>
+						</li>
+						<li>
+							<a href="../pages/articles.html">Articles</a>
+						</li>
+						<li class="active">
+							<a href="#">Contacts</a>
+						</li>
+						<li>
+							<a href="../pages/gallery.html">Gallery</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<h2>Contacts &#128522;</h2>
+			<form action="contact">
+				<fieldset>
+					<legend>Personal information</legend>
+					<div class="form-section">
+						<label for="email">Email</label>
+						<input type="email" placeholder="email" name="email" id="email">
+						<label for="name">Name</label>
+						<input type="text" placeholder="name" name="name" id="name">
+					</div>
+					<div class="form-section">
+						<label>
+							<input type="radio" name="gender" value="male">Male
+						</label>
+						<label>
+							<input type="radio" name="gender" value="female">Female
+						</label>
+					</div>
+					<select name="options" class="form-section">
+						<option value="Option 1">Option 1</option>
+						<option value="Option 2">Option 2</option>
+						<option value="Option 3">Option 3</option>
+						<option value="Option 4">Option 4</option>
+					</select>
+					<input type="checkbox">I am 18 years old.
+				</fieldset>
+				<fieldset>
+					<legend>Comment & file</legend>
+					<div class="form-section">
+						<label for="comment">Comment</label>
+						<textarea name="comment" id="comment"></textarea>
+					</div>
+
+					<input type="file" class="form-section">
+				</fieldset>
+				<input type="date">
+				<button>Send</button>
+			</form>
+		</div>
+
+		<footer>
+			<div class="container">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../pages/about.html">About</a></li>
+					<li><a href="../pages/articles.html">Articles</a></li>
+					<li><a href="#">Contacts</a></li>
+					<li><a href="../pages/gallery.html">Gallery</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+
+</html>
