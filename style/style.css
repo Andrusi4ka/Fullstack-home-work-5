@@ -124,9 +124,14 @@ footer {
     background-color: var(--footer-color);
 }
 
+footer .container {
+    display: flex;
+}
+
 footer ul {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 footer ul li {
@@ -144,6 +149,18 @@ footer ul li a {
 
 footer ul li a:hover {
     text-decoration: underline;
+}
+
+footer .dwn-app {
+    margin-top: 1em;
+}
+
+footer .dwn-app a img {
+    width: 150px;
+}
+
+footer .dwn-app a:hover {
+    opacity: 0.8;
 }
 
 .history-image {
