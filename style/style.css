@@ -20,7 +20,14 @@ body {
 }
 
 h1 {
-    text-align: center;
+    margin: 0;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .menu {
