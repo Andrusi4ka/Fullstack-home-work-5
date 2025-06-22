@@ -1,3 +1,9 @@
+:root {
+    --menu-color: antiquewhite;
+    --hover-color: burlywood;
+    --footer-color: rgb(81, 51, 12);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -18,7 +24,7 @@ h1 {
 }
 
 .menu {
-    background-color: antiquewhite;
+    background-color: var(--menu-color);
 
 }
 
@@ -35,7 +41,7 @@ header ul li {
 }
 
 header ul .active {
-    background-color: burlywood;
+    background-color: var(--hover-color);
 }
 
 header ul li a {
@@ -46,7 +52,7 @@ header ul li a {
 }
 
 header ul li:hover {
-    background-color: burlywood;
+    background-color: var(--hover-color);
     transition-duration: 0.3s;
 }
 
@@ -99,7 +105,7 @@ header ul li:hover {
 
 .advantages .bl-advantage i {
     font-size: 50px;
-    color: rgb(81, 51, 12);
+    color: var(--footer-color);
 }
 
 .advantages .bl-advantage p {
@@ -108,7 +114,7 @@ header ul li:hover {
 }
 
 footer {
-    background-color: rgb(81, 51, 12);
+    background-color: var(--footer-color);
 }
 
 footer ul {
