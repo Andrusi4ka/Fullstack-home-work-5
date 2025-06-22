@@ -79,6 +79,30 @@ header ul li:hover {
     cursor: pointer;
 }
 
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.advantages .bl-advantage {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.advantages .bl-advantage i {
+    font-size: 50px;
+    color: rgb(81, 51, 12);
+}
+
+.advantages .bl-advantage p {
+    padding-left: 15px;
+    margin: 0;
+}
+
 footer {
     background-color: rgb(81, 51, 12);
 }
